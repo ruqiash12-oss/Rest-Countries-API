@@ -3,7 +3,7 @@
 A dynamic, fully responsive web application that allows users to explore comprehensive data about countries worldwide. This project is built using **React**, **Tailwind CSS**, and **Zustand** for state management, sourcing its data from the public **REST Countries API**.
 
 ## 🔗 Live Demo
-👉 **[View Live Site](rest-countries-api-4qt4.vercel.app)** 
+👉 **[View Live Site]https://rest-countries-api-4qt4.vercel.app/** 
 
 ## 🚀 Features
 - **Global Directory:** Displays a complete list of countries with essential summaries (flag, name, population, region, and capital).
