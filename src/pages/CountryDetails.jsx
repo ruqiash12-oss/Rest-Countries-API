@@ -3,7 +3,7 @@ import {HiArrowLeft} from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import StatusHandler from "../../../../src/components/StatusHandler";
+import StatusHandler from "../components/StatusHandler";
 export default function CountryDetails(){
  const { id } = useParams();
   const { countries } = useCountriesStore();
