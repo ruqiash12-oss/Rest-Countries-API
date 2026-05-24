@@ -3,7 +3,7 @@ import {HiArrowLeft} from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import StatusHandler from "../components/StatusHandler";
+import StatusHandlers from "../components/StatusHandlers";
 export default function CountryDetails(){
  const { id } = useParams();
   const { countries } = useCountriesStore();
@@ -25,7 +25,7 @@ export default function CountryDetails(){
   }
   return(
     <div className="min-h-screen bg-gray-50 text-gray-950 dark:bg-blue-950 dark:text-white transition-colors duration-300 px-10 py-20 ">
-          <StatusHandler />
+          <StatusHandlers />
           <Link to='/' className='py-3 px-8 bg-white rounded shadow text-center dark:bg-blue-900 md:ml-35'>
           <HiArrowLeft className='inline-block mr-2' />
           Back</Link>
